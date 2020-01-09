@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    one:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      jdbc-url: jdbc:mysql://localhost:3306/sobot_db?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    two:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      jdbc-url: jdbc:mysql://localhost:3306/trs4cloud?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
